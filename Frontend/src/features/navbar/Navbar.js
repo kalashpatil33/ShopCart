@@ -221,7 +221,7 @@ function NavBar({ children }) {
                     ))}
                   </div>
                 </div>
-              </Disclosure.Panel>
+              </Disclosure.Panel>z
             </>
           )}
         </Disclosure>

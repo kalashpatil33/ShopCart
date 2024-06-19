@@ -1,5 +1,5 @@
 {
-  "name": "ecommerce-backend",
+  "name": "ShopCart-Backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,18 +12,22 @@
   "license": "ISC",
   "dependencies": {
     "connect-sqlite": "^0.0.1",
-    "connect-sqlite3": "^0.9.13",
+    "connect-sqlite3": "^0.9.14",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
-    "dotenv": "^16.0.3",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "express-session": "^1.17.3",
     "jsonwebtoken": "^9.0.0",
-    "mongoose": "^7.1.0",
-    "nodemailer": "^6.9.2",
+    "mongoose": "^7.4.0",
+    "nodemailer": "^6.9.3",
     "passport": "^0.6.0",
     "passport-jwt": "^4.0.1",
     "passport-local": "^1.0.0",
-    "stripe": "^12.4.0"
+    "saslprep": "^1.0.3",
+    "stripe": "^12.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
