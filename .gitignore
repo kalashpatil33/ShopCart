@@ -1,0 +1,74 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Snowpack dependency directory (https://snowpack.dev/)
+web_modules/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional stylelint cache
+.stylelintcache
+
+# Webpack intermediate build files
+.cache/
+dist/
+
+# Parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+
+
+# Windows System files
+Thumbs.db
+ehthumbs.db
+
+
+# Uncomment if using
+# vercel
+# .vercel
+
+
+
+# Frontend specific
+/frontend/node_modules/
+/frontend/build/
+/frontend/.cache/
+/frontend/.parcel-cache
+/frontend/.next
+/frontend/.nuxt
+/frontend/.vuepress/dist
+/frontend/.svelte-kit
+
+# Backend specific
+/backend/node_modules/
+/backend/build/
+/backend/.cache/
+/backend/.parcel-cache
+/backend/.serverless
+/backend/.dynamodb
+/backend/.fusebox
